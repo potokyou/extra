@@ -14,7 +14,6 @@ export const Footer: FC<BoxProps> = (props) => {
         color="gray.500"
         fontSize="xs"
       >
-        {version ? ` (v${version}), ` : ", "}
         Разработано командой{" "}
         <Link color="blue.400" href="https://potokyou.com">
           [поток]
