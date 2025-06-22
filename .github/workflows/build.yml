@@ -49,7 +49,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            potokyou/extra:latest
-            potokyou/extra:${{github.ref_name}}
             ghcr.io/potokyou/extra:latest
             ghcr.io/potokyou/extra:${{github.ref_name}}
